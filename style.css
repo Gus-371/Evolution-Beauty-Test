@@ -212,6 +212,10 @@ text: 957329, c3a870
     font-size: 20px;
 }
 
+.drop-down-btn:hover {
+    cursor: pointer;
+}
+
 
 
 
@@ -312,7 +316,7 @@ text: 957329, c3a870
 }
 
 .intro-couses-images {
-  padding: 0 10vw;
+  padding: 0 10vw; /*chnage for samller screen */
 }
 
 .slider-wrapper {
@@ -448,6 +452,27 @@ text: 957329, c3a870
 }
 
 
+.intro-courses-sec .intro-course-btn {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+}
+
+.intro-courses-sec a {
+    border: 2px solid #D6AA58;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    color: #D6AA58;
+    font-style: italic; /*maybe delete*/
+    background-color: transparent;
+    transition: background-color .3s;  
+}
+
+.intro-courses-sec a:hover {
+    background-color: #477A91;
+}
 
 
 
@@ -470,7 +495,7 @@ text: 957329, c3a870
 .intro-courses-spanish-text h4 {
     color: #477A91;
     padding: 0px 2%;
-    padding-top: 70px;
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -564,7 +589,7 @@ text: 957329, c3a870
 
 .footer-social .footer-logo a img {
     height: 50px;
-    width: 50px;
+    width: 130px;
     object-fit: cover;
 }
 
@@ -690,6 +715,266 @@ footer .footer-social-icons i:hover {
     opacity: .8;
     padding-right: 10px;
 }
+
+
+
+
+
+
+
+
+/*--------------------------About Us Page---------------------------*/
+
+.about-us-sec .about-us-content {
+    background-color: #606f81;
+    opacity: .9;
+    padding: 0 3%;
+    padding-top: 120px;
+    min-height: 80vh;
+}
+
+.about-us-sec .about-us-content img {
+    margin: 0 5%;
+    width: 90%;
+    border: 5px solid #D6AA58;
+}
+
+.about-us-sec .about-us-content h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #D6AA58;
+}
+
+
+
+.about-us-sec .about-us-content h1:nth-child(2) {
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.about-us-sec .about-us-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #D6AA58;
+    padding: 5px 0;
+}
+
+.about-us-sec .about-us-content h4 {
+    color: #FFFFFF;
+}
+
+.about-us-sec .about-us-content #last-h4-abou-us{
+    padding-top: 20px;
+    color: #FFFFFF
+}
+
+.about-us-sec .redirect {
+    background-color: #606f81;
+    opacity: .9;
+    padding: 0 3%;
+    padding: 20px 0;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-sec .redirect a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #D6AA58;
+    border: 2px solid #D6AA58;
+    background-color: transparent;
+    transition: background-color .3s;
+}
+
+.about-us-sec .redirect a:hover {
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+/*--------------------------Courses Page---------------------------*/
+
+.courses-tab-sec .courses-tab-content {
+    padding: 0 3%;
+    padding-top: 110px;
+    min-height: 80vh;
+}
+
+.courses-tab-sec .courses-tab-content h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #D6AA58;
+}
+
+.courses-tab-sec .courses-tab-content h1:nth-child(2) {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.courses-tab-sec .courses-tab-content p {
+    color: #477A91;
+}
+
+.courses-tab-sec .courses-tab-content span {
+    color: #D6AA58;
+    padding-left: 5px;
+}
+
+.courses-tab-sec .courses-image-container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+
+.courses-tab-sec .courses-image-container img {
+    width: 47%;
+    aspect-ratio: 1/1;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------Gallery Page---------------------------*/
+
+.gallery-tab-sec .gallery-tab-content {
+    padding: 0 3%;
+    padding-top: 110px;
+    min-height: 80vh;
+}
+
+.gallery-tab-sec .gallery-tab-content h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #D6AA58;
+}
+
+.gallery-tab-sec .gallery-tab-content h1:nth-child(2) {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+
+.gallery-tab-sec .gallery-tab-content .gallery {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.gallery-tab-sec .gallery-tab-content .gallery img {
+    width: 47%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+
+/* modal */
+
+.modal-content {
+    background: linear-gradient(-45deg, #477A91, #606f81);
+    margin: 10% auto;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6), 5px 7px 20px 0px rgba(0,0,0,0.3);
+}
+
+.close-btn {
+    color: white;
+    float: right;
+    font-size: 30px;
+    transition: color .3s;
+}
+
+.close-btn:hover, .close-btn:focus {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.modal-1 {
+    position: fixed;
+    z-index: 200;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;  /*gives us the scroll bar*/
+    background-color: rgba(255,255,255,0.8);
+}
+
+.modal-1 {
+    display: none;  /*hides modal until btn pushed, changes w JS*/
+}
+
+.modal-image-container {
+    padding-bottom: 10px;
+}
+
+.modal-image-container img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 5px solid #D6AA58;
+}
+
+.next-arrows {
+    display: flex;
+}
+
+.next-arrows p {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.next-arrows i {
+    color: #D6AA58;
+    font-size: 25px;
+    transition: color .3s;
+}
+
+.next-arrows i:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
