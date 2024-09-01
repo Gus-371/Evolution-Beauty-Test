@@ -24,7 +24,7 @@ text: 957329, c3a870
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #606f81;
+    background-color: #000000;
     width: 100vw;
     height: 100px;
     max-height: 100px;
@@ -182,7 +182,7 @@ text: 957329, c3a870
 }
 
 .off-screen-menu-nav .off-menu-bottom i:hover {
-    background-color: #606f81;
+    background-color: #000000;
 }
 
 .drop-down-menu {
@@ -222,7 +222,7 @@ text: 957329, c3a870
 /*--------------------------welcome---------------------------*/
 
 .welcome-sec {
-    background: linear-gradient(135deg, #606f81, #000000);
+    background: linear-gradient(135deg, #000000, #000000);
 }
 
 .welcome-text h1 {
@@ -500,7 +500,7 @@ text: 957329, c3a870
 }
 
 .spanish-into {
-    background-color: #606f81;
+    background-color: #000000;
     margin: 0 10%;
     display: flex;
     flex-direction: column;
@@ -726,7 +726,7 @@ footer .footer-social-icons i:hover {
 /*--------------------------About Us Page---------------------------*/
 
 .about-us-sec .about-us-content {
-    background-color: #606f81;
+    background-color: #000000;
     opacity: .9;
     padding: 0 3%;
     padding-top: 120px;
@@ -769,7 +769,7 @@ footer .footer-social-icons i:hover {
 }
 
 .about-us-sec .redirect {
-    background-color: #606f81;
+    background-color: #000000;
     opacity: .9;
     padding: 0 3%;
     padding: 20px 0;
@@ -891,7 +891,7 @@ footer .footer-social-icons i:hover {
 /* modal */
 
 .modal-content {
-    background: linear-gradient(-45deg, #000000, #606f81);
+    background: linear-gradient(-45deg, #000000, #000000);
     margin: 10% auto;
     width: 70%;
     padding: 20px;
