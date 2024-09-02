@@ -965,444 +965,111 @@ footer .footer-social-icons i:hover {
 
 
 
+/*-------------------------Contact Us Page---------------------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------All menu items---------------------------*/
-.whole-menu-item {
-    margin: 0 5vw;
-    margin-bottom: 50px;
-}
-
-.all-items {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column; /*change to row at 350px in media query*/
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
+.contact-us-tab-sec .contact-us-tab-content {
+    padding: 0 3%;
+    background-color: #000000;
+    opacity: .9;
+    padding-top: 110px;
     min-height: 80vh;
 }
 
-
-.single-item {
-    width: 160px;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    align-items: center;
-    overflow: hidden;
-    border: 1px solid #404040;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+.contact-us-tab-sec .contact-us-tab-content h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #D6AA58;
 }
 
-
-
-
-.all-items .single-item img {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 10px;
+.contact-us-tab-sec .contact-us-tab-content h1:nth-child(2) {
+    padding-bottom: 20px;
+    padding-left: 5px;
 }
 
-.all-items .single-item hr {
+.contact-us-tab-sec .contact-us-tab-content .location-map iframe {
     width: 100%;
-}
-.all-items .single-item h4 {
-    text-align: center;
+    height: 30vh;
 }
 
-.all-items .single-item p {
-    padding-bottom: 10px;
+.contact-us-tab-sec .contact-us-tab-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #D6AA58;
+    padding: 5px 0;
 }
 
+.contact-us-tab-sec .contact-us-tab-content p {
+    color: #FFFFFF;
+}
 
-.go-back-to-menu {
-    margin-top: 110px;
+.contact-us-tab-sec .contact-us-tab-content p span {
+    color: #D6AA58;
+    padding-left: 5px;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us {
+    margin-top: 20px;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .call-us {
+    margin-bottom: 100px;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us a, .contact-us-tab-sec .contact-us-tab-content .call-us a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us .text a, .contact-us-tab-sec .contact-us-tab-content .call-us .text a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .call-us p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us i, .contact-us-tab-sec .contact-us-tab-content .call-us i {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: transparent;
+    border: 3px solid #D6AA58;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: background-color .3s;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us i:hover {
+    background-color: #D6AA58;
+}
+
+.contact-us-tab-sec .contact-us-tab-content .visit-us, .contact-us-tab-sec .contact-us-tab-content .call-us{
     display: inline-flex;
 }
 
-.go-back-to-menu a {
-    font-size: 16px;
-    margin-right: 10px;
-    font-weight: 500;
-}
 
-.go-back-to-menu p {
-    font-size: 16px;
-    font-weight: 500;
-}
 
-.intro-menu-topic h2 {
-    font-size: 40px;
-    padding-top: 5px;
-    font-weight: 800;
-}
 
-.intro-menu-topic hr {
-    width: 60px;
-    height: 7px;
-    background-color: #FFD700;
-    margin-bottom: 10px;
-    border: none;
-}
 
-.intro-menu-topic h4 {
-    font-size: 16px;
-    opacity: .7;
-}
 
-.intro-menu-topic h4:last-child {
-    padding-bottom: 20px;
-}
-/*--------------------------location---------------------------*/
-.location-sec {
-    margin-top: 110px;
-}
-.location-container {
-    min-height: 90vh;
-}
 
-.location-container .location-img iframe{
-    width: 100%;
-    height: 70vw;
-}
 
-.location-info p {
-    font-weight: 500;
-    padding-bottom: 5px;
-}
 
-.location-title h2 {
-    font-weight: 700;
-    font-size: 35px;
-}
 
-.location-title hr {
-    width: 60px;
-    height: 7px;
-    background-color: #FFD700;
-    margin-bottom: 20px;
-    border: none;
-}
 
-.location-info .horario p {
-    font-weight: 600;
-    padding-left: 20px;
-}
-
-
-
-
-
-
-
-/*--------------------------media query---------------------------*/
-
-
-
-/*--------------------------350---------------------------*/
-
-@media (min-width:360px){
-    .all-items {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row; /*change to row at 350px in media query*/
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-        max-width: 340px;
-        min-height: 80vh;
-        margin: 0 auto;
-    } 
-}
-
-
-
-
-
-/*--------------------------600---------------------------*/
-
-@media (min-width:600px){
-    .all-items {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row; /*change to row at 350px in media query*/
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        align-content: center;
-        max-width: 620px;
-        min-height: 80vh;
-        margin: 0 auto;
-    }
-
-
-
-
-
-
-    .welcome-sec h1 {
-        font-size: 40px;
-        text-align: center;
-        color: #ffffff;
-    }
-    
-    
-    .welcome-text h1 {
-        font-size: 40px;
-        color: transparent;
-        -webkit-text-stroke: 1px #ffffff;
-        background-image: linear-gradient(#FFD700, #FFD700);
-        background-repeat: no-repeat;
-        -webkit-background-clip: text;
-        background-position: -750px 0;
-        animation: animateText 5s linear infinite;
-    }
-    
-    @keyframes animateText {
-        0%,95%,100% {
-            background-position: -750px 0;
-        }
-        65%,85% {
-            background-position: 0px 0;
-        }
-    }
-
-
-
-
-
-
-
-    .sections h2 {
-        font-size: 60px;
-        margin-top: 20px;
-    }
-    
-    .sections hr {
-        width: 100px;
-        height: 10px;
-        background-color: #FFD700;
-        margin-bottom: 10px;
-        border: none;
-    }
-
-
-
-
-
-    .menu-items {
-        display: flex;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid #000000;
-        border-radius: 10px;
-        overflow: hidden;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 100%;
-        height: 160px;
-        background-color: #404040;
-        text-decoration: none;
-        cursor: pointer;
-        box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
-        transition: background-color .3s;
-    }
-    
-    .menu-items:hover {
-        background-color: #404040;
-        opacity: .70;
-    }
-    
-    .menu-items img {
-        width: 40%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-    
-    .menu-items h4 {
-        width: 60%;
-        font-size: 35px;
-        padding-left: 10%;
-        color: #ffffff;
-    }
-}
-
-
-
-
-
-/*--------------------------800---------------------------*/
-
-@media (min-width:800px){
-    .welcome-sec h1 {
-        padding-top: 110px;
-        padding-bottom: 10px;
-        font-size: 50px;
-        text-align: center;
-        color: #ffffff;
-    }
-
-
-    .welcome-text h1 {
-        font-size: 50px;
-        color: transparent;
-        -webkit-text-stroke: 2px #ffffff;
-        background-image: linear-gradient(#FFD700, #FFD700);
-        background-repeat: no-repeat;
-        -webkit-background-clip: text;
-        background-position: -750px 0;
-        animation: animateText 5s linear infinite;
-    }
-    
-    @keyframes animateText {
-        0%,95%,100% {
-            background-position: -750px 0;
-        }
-        65%,85% {
-            background-position: 0px 0;
-        }
-    }
-
-    .welcome-sec img {
-        width: 100%;
-        aspect-ratio: 16/9;
-        object-fit: cover;
-    }
-
-
-
-
-    .sections hr {
-        margin-bottom: 20px;
-    }
-
-
-
-
-
-
-
-    .promotion-images {
-        padding: 0 15vw;
-      }
-}
-
-
-
-
-
-
-
-/*--------------------------1000---------------------------*/
-
-@media (min-width:1000px){
-    body {
-        max-width: 1000px;
-        margin-right: auto;
-        margin-left: auto;
-        box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
-    }
-    #navbar {
-        max-width: 1000px;
-        margin-right: auto;
-        margin-left: auto;
-        left: auto;
-        height: 100px;
-        max-height: 100px;
-    }
-
-    html {
-        max-width: 1000px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .off-screen-menu-nav.active {
-        left: auto;
-        margin-top: 100px;
-        padding-top: 50px;
-    }
-
-
-    .welcome-sec h1 {
-        padding-top: 150px;
-        padding-bottom: 10px;
-        font-size: 60px;
-        text-align: center;
-        color: #ffffff;
-    }
-
-    .welcome-text h1 {
-        font-size: 60px;
-        color: transparent;
-        -webkit-text-stroke: 2px #ffffff;
-        background-image: linear-gradient(#FFD700, #FFD700);
-        background-repeat: no-repeat;
-        -webkit-background-clip: text;
-        background-position: -820px 0;
-        animation: animateText 5s linear infinite;
-    }
-    
-    @keyframes animateText {
-        0%,95%,100% {
-            background-position: -820px 0;
-        }
-        65%,85% {
-            background-position: 0px 0;
-        }
-    }
-
-
-
-    #menu-locate {
-        background-color: aqua;
-        width: 1px;
-        height: 1px;
-        position: relative;
-        top: -150px;
-        opacity: 0;
-    }
-
-    #promotion-locate {
-        background-color: aqua;
-        width: 1px;
-        height: 1px;
-        position: relative;
-        top: -150px;
-        opacity: 0;
-    }
-
-    .go-back-to-menu {
-        margin-top: 150px;
-        display: inline-flex;
-    }
-}
 
 
 
